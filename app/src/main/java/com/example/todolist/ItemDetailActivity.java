@@ -24,6 +24,7 @@ import android.view.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * An activity representing a single Item detail screen. This
  * activity is only used on narrow width devices. On tablet-size devices,
