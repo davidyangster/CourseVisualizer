@@ -32,6 +32,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity {
 
     Button btn_sub;
+    Button btn_ctgy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i =  new Intent (getApplicationContext(), Pop.class);
                 startActivity(i);
+            }
+        });
+
+        setContentView(R.layout.activity_item_list);
+        btn_ctgy = (Button) findViewById(R.id.fab);
+        btn_ctgy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),PopCategories.class);
             }
         });
     }

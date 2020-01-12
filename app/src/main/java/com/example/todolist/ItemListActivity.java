@@ -50,7 +50,7 @@ public class ItemListActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ItemListActivity.this,ClassPageActivity.class));
+                startActivity(new Intent(ItemListActivity.this,PopCategories.class));
             }
         });
 
