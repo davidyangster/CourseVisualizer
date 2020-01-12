@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="30dp"
-            android:text="Home"
+            android:text="Course Name"
             android:textColor="@android:color/white"
             android:textSize="25dp"
             ></TextView>
@@ -36,23 +36,136 @@
     <include layout="@layout/content_main" />
 
     <TextView
-        android:id="@+id/date_view"
+        android:id="@+id/final_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="75dp"
-        android:text="Input Your classes"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="140dp"
+        android:text="Final:"
+        android:textSize="25dp"
         android:textColor="@android:color/background_dark"
         android:textStyle="bold"
 
         />
 
-    <EditText
-        android:id="@+id/plain_text_input"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/final_data_view"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:inputType="text" />
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="140dp"
+        android:textSize="25dp"
+        android:text="50%"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/midterm_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="240dp"
+        android:textSize="25dp"
+        android:text="Midterm:"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/midterm_data_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="240dp"
+        android:textSize="25dp"
+        android:text="30%"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/assignment_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="340dp"
+        android:textSize="25dp"
+        android:text="Assignment:"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/assignment_data_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="340dp"
+        android:textSize="25dp"
+        android:text="5%"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/lab_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="440dp"
+        android:text="Lab:"
+        android:textSize="25dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/lab_data_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="440dp"
+        android:text="10%"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/participation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="540dp"
+        android:text="Participation:"
+        android:textSize="25dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/participation_data_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="540dp"
+        android:text="5%"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+
+        />
+
+
 
 
 
