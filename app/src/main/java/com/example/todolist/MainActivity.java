@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 import lecho.lib.hellocharts.view.PieChartView;
 
-public class MainActivity extends AppCompatActivity {
+public class SideBarActivity extends AppCompatActivity {
     CalendarView calendar;
     TextView date_view;
     @Override
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        PieChartView pieChartView = findViewById(R.id.chart);
+
 
 
 
