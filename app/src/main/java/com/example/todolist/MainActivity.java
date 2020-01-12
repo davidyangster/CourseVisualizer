@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 import lecho.lib.hellocharts.view.PieChartView;
 
-public class SideBarActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
     CalendarView calendar;
     TextView date_view;
     @Override

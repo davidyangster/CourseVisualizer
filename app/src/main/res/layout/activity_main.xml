@@ -6,12 +6,23 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_foreground"
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="Home"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            ></TextView>
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -36,10 +47,17 @@
 
         />
 
-    <lecho.lib.hellocharts.view.PieChartView
-        android:id="@+id/chart"
+    <EditText
+        android:id="@+id/plain_text_input"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:inputType="text" />
+
+
+
+
+
 
 
 
@@ -50,6 +68,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@android:drawable/ic_input_add" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

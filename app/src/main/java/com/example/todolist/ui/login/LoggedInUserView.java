@@ -1,4 +1,4 @@
-package  com.example.todolist.ui.login;
+package com.example.todolist.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.
