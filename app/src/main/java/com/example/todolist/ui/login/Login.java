@@ -26,14 +26,14 @@ import com.example.todolist.R;
 import com.example.todolist.ui.login.LoginViewModel;
 import com.example.todolist.ui.login.LoginViewModelFactory;
 
-public class LoginActivity extends AppCompatActivity {
+public class Login extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_class_input);
+        setContentView(R.layout.activity_login);
         loginViewModel = ViewModelProviders.of(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
