@@ -120,7 +120,7 @@ public class Main {
     }
 
     public void myPercentagesButton() {
-        myGrades.calculatedWeights()
+        myGrades.calculatedWeights();
         //////piechart show here
 
     }
