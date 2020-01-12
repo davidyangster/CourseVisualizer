@@ -1,5 +1,8 @@
 package com.example.todolist.data.model;
 
+import android.os.Build;
+import androidx.annotation.RequiresApi;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -15,6 +18,10 @@ public class Profile {
         this.userName = userName;
         this.password = password;
         courses = new ArrayList<>();
+    }
+
+    public void setCourses(List<Course> courses) {
+        this.courses = courses;
     }
 
     public String getUserName() {
@@ -64,6 +71,7 @@ public class Profile {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -73,6 +81,7 @@ public class Profile {
                 Objects.equals(password, profile.password);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public int hashCode() {
         return Objects.hash(userName, password);

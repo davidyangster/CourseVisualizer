@@ -1,5 +1,8 @@
 package com.example.todolist.data.model;
 
+import android.os.Build;
+import androidx.annotation.RequiresApi;
+
 import java.util.Objects;
 
 public class Assignment {
@@ -29,6 +32,7 @@ public class Assignment {
         this.assignmentWeight = assignmentWeight;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -37,6 +41,7 @@ public class Assignment {
         return Objects.equals(assignmentName, that.assignmentName);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public int hashCode() {
         return Objects.hash(assignmentName);

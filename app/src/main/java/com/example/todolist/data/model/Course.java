@@ -16,6 +16,10 @@ public class Course {
         this.courseAssignments = new ArrayList<Assignment>();
     }
 
+    public void setCourseAssignments(List<Assignment> courseAssignments) {
+        this.courseAssignments = courseAssignments;
+    }
+
     public String getCourseName() {
         return courseName;
     }
@@ -72,4 +76,6 @@ public class Course {
     public int hashCode() {
         return Objects.hash(courseName);
     }
+
+
 }
